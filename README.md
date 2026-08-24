@@ -30,10 +30,15 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 
 - **Project 4**: Push a Docker Image to Amazon ECR Repository
   - **Description**: Build a Docker image and push it to an Amazon ECR repository. This includes creating the repository, tagging the image, and using AWS CLI to authenticate and upload the image.
+  - **Objectives**:
+    * Create your Amazon ECR repository
+    * Authenticate your Docker to Amazon ECR
+    * Tag your Docker image with the Amazon ECR repository
+    * Push your image to Amazon ECR
   - **Service Used**: 
 
-- **Project 5**:  Creating an Amazon RDS DB Instance (MS SQL Server)
-  - **Description**: Set up and configure a Microsoft SQL Server database instance using Amazon RDS. This includes choosing the appropriate instance type, configuring security settings, setting up backups and maintenance windows, and ensuring high availability.
+- **Project 5**:  Creating an Amazon RDS DB Instance 
+  - **Description**: Set up and configure a database instance using Amazon RDS. This includes choosing the appropriate instance type, configuring security settings, setting up backups and maintenance windows, and ensuring high availability.
   - **Service Used**: 
 
 - **Project 6**:  Create a DynamoDB Table
