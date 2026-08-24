@@ -171,8 +171,14 @@ These projects are intended for individuals with a basic AWS understanding who w
   - **Services Used**: 
 
 - **Project 8**:  Create an EFS Shared File System
-
   - **Description**: Set up an Amazon Elastic File System (EFS) to provide a shared file system across multiple Amazon EC2 instances in separate Availability Zones within the same region.
+  - **Objectives**:
+    - Create an EFS file system
+    - Spin up two EC2 instances in two seperate AZs in the same region
+    - Make sure you can SSH into both instances
+    - Mount the EFS volume on both instances
+    - Create a simple text file on the EFS volume with Instance-1
+    - Open that file on the EFS volume with Instance-2
   - **Service Used**: 
 
 ## Level 3 (Advanced Projects)
