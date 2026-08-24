@@ -110,6 +110,11 @@ These projects are intended for individuals with a basic AWS understanding who w
 
 - **Project 2**: Deploy a Docker Container Image on AWS Fargate
   - **Description**: Deployed a Docker container image on AWS Fargate by configuring a container with a Docker image, setting up a task definition, defining a service, and deploying it on an ECS cluster. Explored memory limits, task roles, load balancers, and security group configurations.
+  - **Objectives**:
+    - Configure your container with your Docker image
+    - Configure your task definition
+    - Define your service
+    - Configure your cluster
   - **Services Used**: 
 
 - **Project 3**: Create an Aurora RDS Database
