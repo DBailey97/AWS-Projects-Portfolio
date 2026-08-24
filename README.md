@@ -133,7 +133,9 @@ These projects are intended for individuals with a basic AWS understanding who w
   - **Services Used**: 
  
 - **Project 4**: Setup a Simple State Machine with at least 2 Steps
-  - **Description**: Created a simple AWS Step Functions state machine consisting of two AWS Lambda functions. The first function adds two numbers provided as input, and the second function returns the square of the sum. The state machine coordinates the flow between these two Lambdas. After successfully executing the workflow, I verified the output and cleaned up the resources.
+  - **Description**: Create a simple AWS Step Functions state machine consisting of two AWS Lambda functions. Build on past services deployed to make a production level example
+  - **Objectives**:
+    - 
   - **Services Used**: 
  
 - **Project 5**: Create a Serverless API  
