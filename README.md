@@ -85,16 +85,12 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
     * Create a CloudFront distribution and use the S3 bucket as origin
     * Make sure that the bucket's content can be accessed only through the CloudFront endpoint
   - **Service Used**: 
-
-- **Project 11**:  Create an IAM User
-  - **Description**: Configured IAM by creating a new user with console access and adding it to a newly created group named "adminsGroup" with `AdministratorAccess` permissions. Enabled multi-factor authentication (MFA) for the root user and applied a password policy to enforce security best practices.
-  - **Service Used**:
     
- - **Project 12**:  Use a Managed Config Rule
+ - **Project 11**:  Use a Managed Config Rule
     - **Description**: Implemented and monitored an AWS Config rule to ensure compliance with encryption policies for EBS volumes. Enabled AWS Config in the US-EAST-1 region, selected the managed Config rule `encrypted-volumes`, and launched an EC2 instance with an unencrypted EBS volume to verify that the Config rule detects non-compliance.
     - **Service Used**:
     
-- **Project 13**:  Deploy a CloudFormation Template from the AWS Console
+- **Project 12**:  Deploy a CloudFormation Template from the AWS Console
   - **Description**: Downloaded a pre-made CloudFormation template and used it to create a CloudFormation stack. Monitored the deployment process through the events tab, confirmed the creation of a DynamoDB table and an S3 bucket, and then deleted the stack to ensure both resources were removed as part of the cleanup.
   - **Service Used**: 
     
