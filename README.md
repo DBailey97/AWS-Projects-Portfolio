@@ -119,6 +119,17 @@ These projects are intended for individuals with a basic AWS understanding who w
 
 - **Project 3**: Create an Aurora RDS Database
   - **Description**: Created an Aurora RDS database with MySQL compatibility. Configured a security group to allow public access for testing purposes, set up the database using `db.r5.large` instance type, and connected to the instance using MySQL Workbench. Verified functionality by creating a test table, then deleted the database and ensured proper resource cleanup.
+  - **Objectives**:
+    - Create a Security Group in your default VPC that allows traffic from `0.0.0.0/0` (public internet) on port `3306`
+    - Use the "standard create" mode and choose "MySQL compatibility" with "regional" and "Dev/Test" mode
+    - Specify your own password for the database
+    - Choose the db.r5.large instance size
+    - Choose the region's default VPC
+    - Enable "Public Access" and add the above created Security Group
+    - Create the database
+    - Connect from your computer to the newly created database with a MySQL DBMS like [MySQL Workbench](https://dev.mysql.com/downloads/workbench/?os=src) or [Sequel Ace](https://github.com/Sequel-Ace/Sequel-Ace)
+    - Create a test table in your database to verify everything is working correctly
+    - Delete the database
   - **Services Used**: 
  
 - **Project 4**: Setup a Simple State Machine with at least 2 Steps
