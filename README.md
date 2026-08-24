@@ -46,7 +46,12 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
   - **Service Used**: 
 
 - **Project 6**:  Create a DynamoDB Table
-  - **Description**: This project involved creating a DynamoDB table with provisioned capacity. Three random items were inserted into the table. A scan operation was performed to retrieve all items, and a query operation was used to fetch a single item based on specific criteria.
+  - **Description**: This project involves creating a DynamoDB table with provisioned capacity. Three random items to be inserted into the table. A scan operation was performed to retrieve all items, and a query operation to be used to fetch a single item based on specific criteria.
+  - **Objectives**: 
+    * Create a DynamoDB table with provisioned capacity
+    * Create three random items in the table
+    * Run a scan on the table that returns all three items
+    * Run a query on the table that returns a single item
   - **Service Used**: 
  
 - **Project 7**:  Install & Configure AWS CLI then Create an S3 Bucket
