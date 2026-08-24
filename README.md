@@ -5,6 +5,10 @@ Welcome to my AWS Project Portfolio! This repository features a collection of pr
 This section features projects ideal for beginners, focusing on fundamental AWS concepts and basic services.
 - **Project 1**: Create Three Billing Alarms
   - **Description**: This project involves configuring three AWS billing alarms to monitor and manage AWS costs effectively.
+  - **Objectives:
+  * Create a billing alarm for $5
+  * Create a billing alarm for $25
+  * Create a billing alarm for $100
   - **Service Used**: 
 
 - **Project 2**: Create a Cost Budget
