@@ -181,87 +181,85 @@ These projects are intended for individuals with a basic AWS understanding who w
     - Open that file on the EFS volume with Instance-2
   - **Service Used**: 
 
-## Level 3 (Advanced Projects)
-Projects at this level are designed for individuals with extensive AWS experience, featuring intricate architectures and integrations.
 
-- **Project 1**:  SQLServer Native Backup and Restore on RDS
-
-  - **Description**: Implemented SQL Server backup and restore on AWS RDS involving Amazon S3 bucket.
-  - **Service Used**: 
-
-- **Project 2**:  Deploy a VPC with Terraform
-
-  - **Description**: Created Virtual Private Cloud (VPC), route tables (both public and private), route table associations, an internet gateway, an Elastic IP, and a NAT gateway and EC2 instance in both a public and a private subnet using Terraform (IaC)
-  - **Service Used**: 
-
-## Level 4 (Expert Projects)
+## Level 3 (Expert Projects)
 These projects are the most challenging, demonstrating advanced AWS solutions and best practices.
 
-- **Project 1**:  Create a Cluster of Virtual Machines Using Docker Swarm
+- **Project 1**:  SQLServer Native Backup and Restore on RDS
+  - **Description**: Implemented SQL Server backup and restore on AWS RDS involving Amazon S3 bucket.
+  - **Objectives**:
+    - Enable native backup and restore on RDS
+    - Take native SQL Server backup to S3 bucket 
+    - Restore native backup from S3 bucket
+  - **Service Used**: 
 
+- **Project 2**:  Create a Cluster of Virtual Machines Using Docker Swarm
   - **Description**: Set up a Docker Swarm cluster across five EC2 instances, with one manager node and four worker nodes, and tested it by deploying an Nginx service.
+  - **Objectives**:
   - **Service Used**: 
 
-- **Project 2**:  Build a Basic Web Application
-
+- **Project 3**:  Build a Basic Web Application
   - **Description**: This project involves building a full-stack web application using AWS Amplify. It features a simple React frontend with user authentication, a serverless function to handle user sign-ups, and a DynamoDB database for storing user emails. The application leverages AWS’s robust and scalable cloud services to deliver a seamless user experience, allowing users to sign up, log in, and store information securely.
+  - **Objectives**:
   - **Service Used**: 
 
- - **Project 3**:  Build a Serverless Recipe Generator with AWS Amplify and Amazon Bedrock
+ - **Project 4**:  Build a Serverless Recipe Generator with AWS Amplify and Amazon Bedrock
    - **Description**: In this project, I built a serverless web application using AWS Amplify, integrated with Amazon Bedrock and the Claude 3 Sonnet foundation model for Generative AI. The application allows users to enter a list of ingredients, and in return, it generates creative and delicious recipes powered by AI. The front end is hosted on AWS Amplify, offering continuous deployment, while the backend handles requests to generate recipes from a list of ingredients. AWS services like Cognito for authentication, AppSync for API management, and Lambda for serverless functions are used to power the app.
+    - **Objectives**:
     - **Service Used**: 
 
-- **Project 4**:  Building with Generative AI on AWS using PartyRock, Amazon Bedrock, and Amazon Q
-
+- **Project 5**:  Building with Generative AI on AWS using PartyRock, Amazon Bedrock, and Amazon Q
     - **Description**: In this project, I worked on three independent projects using Amazon Bedrock and PartyRock:
       -  Using PartyRock, I quickly built a book recommendation app that generates personalized suggestions based on the user’s mood and allows for an interactive chatbot experience. This no-code tool made it easy to create and deploy a simple app without writing a single line of code.
       -  In Amazon Bedrock, I experimented with powerful foundation models like Claude 3 Sonnet for chat, Amazon Titan for text generation, and Titan Image Generator for creating images from text prompts. This step showed me how to integrate AI models for more creative and dynamic use cases in real-world applications.
       -  Lastly, I implemented a document-based AI model that retrieves and uses context to answer questions. I set up embeddings using Amazon Titan, performed similarity searches with FAISS, and used the Claude 3 Sonnet model to generate accurate, context-based responses to user queries. This showcased how to build applications that not only generate content but also pull in relevant information from external sources.
-
+    - **Objectives**:
     - **Service Used**: 
 
-- **Project 5**:  Multi-Tier, Highly Available, Fault-Tolerant Web Application
-
+- **Project 6**:  Multi-Tier, Highly Available, Fault-Tolerant Web Application
   - **Description**: In this project, I designed and implemented a multi-tier, highly available, and fault-tolerant web application using various AWS services including Amazon VPC, Amazon EC2, Amazon Aurora, and Amazon S3. This architecture ensures scalability, resilience, and efficient resource management. This experience is part of my journey to becoming a Cloud Engineer, focusing on building robust cloud-based applications.
+  - **Objectives**:
   - **Service Used**:
 
-- **Project 6**:  Building a Highly Available WordPress Web Application
-
+- **Project 7**:  Building a Highly Available WordPress Web Application
   - **Description**: In this project, I designed and implemented a highly available WordPress web application on AWS using various services, including Amazon VPC, Amazon RDS, Amazon EFS, and Amazon EC2 with Auto Scaling and Application Load Balancer (ALB). This architecture ensures scalability, resilience, and efficient resource management.
+  - **Objectives**:
   - **Service Used**:
 
-- **Project 7**:  Create a Continuous Delivery Pipeline
-
+- **Project 8**:  Create a Continuous Delivery Pipeline
   - **Description**: In this project, I created a continuous delivery pipeline using AWS services, including AWS Elastic Beanstalk, AWS CodeBuild, and AWS CodePipeline. The pipeline automates the deployment of a web application, ensuring that code changes are automatically built, tested, and deployed to a highly available environment.
+  - **Objectives**:
   - **Service Used**:
 
 
-- **Project 8**:  Building Web Applications based on Amazon EKS
+- **Project 9**:  Building Web Applications based on Amazon EKS
   - **Description**: In this project, I built a web application based on Amazon Elastic Kubernetes Service (EKS). The architecture included creating a development environment using AWS Cloud9, building container images with Docker, uploading those images to Amazon Elastic Container Registry (ECR), deploying EKS clusters and services, exploring Container Insights, and implementing auto-scaling for pods and clusters. 
+  - **Objectives**:
   - **Service Used**: 
 
 
-- **Project 9**:  Large-scale Data Processing with Step Functions
+- **Project 10**:  Large-scale Data Processing with Step Functions
   - **Description**: In this project, I implemented a large-scale data processing workflow using AWS Step Functions to orchestrate various tasks in a serverless architecture. The workflow utilized Amazon S3 for data storage, IAM for managing permissions, CloudWatch for monitoring and logging, and AWS X-Ray for tracing requests. 
+  - **Objectives**:
   - **Service Used**:
 
-- **Project 10**:  Deploying a Complete Machine Learning Fraud Detection Solution Using Amazon SageMaker
-
+- **Project 11**:  Deploying a Complete Machine Learning Fraud Detection Solution Using Amazon SageMaker
   - **Description**: In this project, I deployed a complete machine learning fraud detection solution using Amazon SageMaker. The architecture leverages various AWS services to build, train, and deploy a robust model capable of detecting fraudulent transactions.
+  - **Objectives**:
   - **Service Used**: 
 
-- **Project 11**:  Serverless Data Processing on AWS
+- **Project 12**:  Serverless Data Processing on AWS
   - **Description**: In this project, I implemented a serverless data processing solution using AWS services, including Amazon Kinesis, AWS Lambda, Amazon S3, Amazon DynamoDB, Amazon Cognito, and Amazon Athena. The architecture is designed to handle real-time data streams, process and store data efficiently, and enable ad-hoc querying for insights.
+  - **Objectives**:
   - **Service Used**: 
 
-- **Project 12**:  AWS Cloud Resume Challenge
-
-  - **Description**: AWS Cloud Resume Challenge was is incredible learning experience and a taste of what real-world cloud architecture looks like. This project, inspired by @ForrestBrazeal  challenge, covers end-to-end deployment of a personal resume website using AWS services, combining serverless computing, infrastructure as code, CI/CD, and front-end development in a practical application.
-
-  - **Service Used**: 
 
 - **Project 13**:  Build an Automated Video Monitoring System with AWS IoT and AI/ML
-
   - **Description**: This project involved creating a real-time automated video monitoring system using AWS IoT and AI/ML services. By integrating AWS IoT Core for device communication and Amazon Rekognition for video analytics, I developed a solution that detects objects, faces, and events in video feeds. The system was further automated using AWS Lambda and CloudWatch to trigger responses based on the detected events, showcasing how IoT and AI/ML can streamline video surveillance processes for increased efficiency and security.
+  - **Objectives**:
+  - **Service Used**: 
 
+- **Project 14**:  AWS Cloud Resume Challenge
+  - **Description**: [ AWS Cloud Resume Challenge ](https://cloudresumechallenge.dev/docs/the-challenge/aws/) was is incredible learning experience and a taste of what real-world cloud architecture looks like. This project, inspired by @ForrestBrazeal  challenge, covers end-to-end deployment of a personal resume website using AWS services, combining serverless computing, infrastructure as code, CI/CD, and front-end development in a practical application.
+  - **Objectives**:
   - **Service Used**: 
