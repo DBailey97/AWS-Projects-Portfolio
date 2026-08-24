@@ -39,6 +39,10 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 
 - **Project 5**:  Creating an Amazon RDS DB Instance 
   - **Description**: Set up and configure a database instance using Amazon RDS. This includes choosing the appropriate instance type, configuring security settings, setting up backups and maintenance windows, and ensuring high availability.
+  - **Objectives**:
+    * Setup a database instance on Amazon RDS
+    * Create any database instance on RDS
+    * Connect to RDS database instance from your local
   - **Service Used**: 
 
 - **Project 6**:  Create a DynamoDB Table
