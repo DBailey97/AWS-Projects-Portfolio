@@ -88,6 +88,11 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
     
  - **Project 11**:  Use a Managed Config Rule
     - **Description**: Implemented and monitored an AWS Config rule to ensure compliance with encryption policies for EBS volumes. Enabled AWS Config in the US-EAST-1 region, selected the managed Config rule `encrypted-volumes`, and launched an EC2 instance with an unencrypted EBS volume to verify that the Config rule detects non-compliance.
+    - **Objectives**:
+      - Turn on AWS Config in the US-EAST-1 region
+      - Choose the managed Config rule eg. encrypted-volumes
+      - Launch an EC2 instance without an encryped EBS volume
+      - Monitor AWS Config until it detects there is an EBS volume that is unencrpyted
     - **Service Used**:
     
 - **Project 12**:  Deploy a CloudFormation Template from the AWS Console
