@@ -1,20 +1,3 @@
-# LES01-AWS100 - Create a Lambda to add 2 numbers
-## Cloud Service Provider
-- Amazon Web Services
-
-## Difficulty
-- Level 100 (Introductory)
-
-## Estimated Time
-- 30 minutes 
-
-## Estimated Cost
-- The AWS Lambda free usage tier includes **1M free requests per month and 400,000 GB-seconds of compute time per month**, so feel free to explore unhinged! 
-
-## Project's Author(s)
-
-- [Syed Auther](https://twitter.com/syedauther)
-
 ## Objectives
 
 ### You need to complete the following:

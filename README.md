@@ -73,6 +73,9 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 
 - **Project 9**:  Create a Lambda Function to Add Two Numbers
   - **Description**: Developed an AWS Lambda function using Python that takes two numbers as input, adds them together, and returns the result. The function also print the result out in the logs.
+  - **Objectives**:
+    - Create an AWS Lambda with a language of your choice to add 2 numbers supplied as input and return the result.
+    -  Print the result out in the logs.
   - **Service Used**: 
 
 - **Project 10**:  Host a Simple Static Webpage with S3 and CloudFront
