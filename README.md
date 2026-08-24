@@ -53,36 +53,32 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
     * Run a scan on the table that returns all three items
     * Run a query on the table that returns a single item
   - **Service Used**: 
- 
-- **Project 7**:  Install & Configure AWS CLI then Create an S3 Bucket
-  - **Description**: This project involves setting up AWS CLI on your local machine, configuring it with your AWS credentials, and using it to create, list, and delete an S3 bucket. This process ensures that you can interact with AWS services programmatically and manage your S3 resources effectively.
-  - **Service Used**: 
 
-- **Project 8**:  Create an S3 Bucket and store an object in it
+- **Project 7**:  Create an S3 Bucket and store an object in it
   - **Description**: This project involves creating an Amazon S3 bucket using the AWS Management Console and uploading a file into the bucket. Amazon S3 (Simple Storage Service) is used to store and retrieve any amount of data at any time, and this project demonstrates the basic steps of setting up and using S3 for storage.
   - **Service Used**: 
 
-- **Project 9**:  Introduction to SNS (Simple Notification Service)
+- **Project 8**:  Introduction to SNS (Simple Notification Service)
   - **Description**: This project involves creating an Amazon SNS (Simple Notification Service) topic, subscribing an email address to the topic, and confirming the subscription through the email. After confirming, a test message is sent through the SNS topic to verify that the email address receives the notification, demonstrating the basic functionality and setup of SNS for sending notifications.
   - **Service Used**: 
 
-- **Project 10**:  Create a Lambda Function to Add Two Numbers
+- **Project 9**:  Create a Lambda Function to Add Two Numbers
   - **Description**: Developed an AWS Lambda function using Python that takes two numbers as input, adds them together, and returns the result. The function also print the result out in the logs.
   - **Service Used**: 
 
-- **Project 11**:  Host a Simple Static Webpage with S3 and CloudFront
+- **Project 10**:  Host a Simple Static Webpage with S3 and CloudFront
   - **Description**: Set up an S3 bucket to host a static webpage and uploaded the webpage content. Configured an Amazon CloudFront distribution to use the S3 bucket as its origin, ensuring that the webpage content is accessible only through the CloudFront endpoint to enhance security and performance.
   - **Service Used**: 
 
-- **Project 12**:  Create an IAM User
+- **Project 11**:  Create an IAM User
   - **Description**: Configured IAM by creating a new user with console access and adding it to a newly created group named "adminsGroup" with `AdministratorAccess` permissions. Enabled multi-factor authentication (MFA) for the root user and applied a password policy to enforce security best practices.
   - **Service Used**:
     
- - **Project 13**:  Use a Managed Config Rule
+ - **Project 12**:  Use a Managed Config Rule
     - **Description**: Implemented and monitored an AWS Config rule to ensure compliance with encryption policies for EBS volumes. Enabled AWS Config in the US-EAST-1 region, selected the managed Config rule `encrypted-volumes`, and launched an EC2 instance with an unencrypted EBS volume to verify that the Config rule detects non-compliance.
     - **Service Used**:
     
-- **Project 14**:  Deploy a CloudFormation Template from the AWS Console
+- **Project 13**:  Deploy a CloudFormation Template from the AWS Console
   - **Description**: Downloaded a pre-made CloudFormation template and used it to create a CloudFormation stack. Monitored the deployment process through the events tab, confirmed the creation of a DynamoDB table and an S3 bucket, and then deleted the stack to ensure both resources were removed as part of the cleanup.
   - **Service Used**: 
     
