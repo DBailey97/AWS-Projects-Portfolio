@@ -63,6 +63,12 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 
 - **Project 8**:  Introduction to SNS (Simple Notification Service)
   - **Description**: This project involves creating an Amazon SNS (Simple Notification Service) topic, subscribing an email address to the topic, and confirming the subscription through the email. After confirming, a test message is sent through the SNS topic to verify that the email address receives the notification, demonstrating the basic functionality and setup of SNS for sending notifications.
+  - **Objectives**:
+    - Create an SNS topic
+    - Subscribe to that SNS topic with an email address of yours
+    - Make sure to accept the subscription in the email you receive
+    - Send a test message through the SNS topic
+    - Make sure you received the message to your email address
   - **Service Used**: 
 
 - **Project 9**:  Create a Lambda Function to Add Two Numbers
