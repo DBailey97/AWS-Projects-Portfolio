@@ -163,6 +163,11 @@ These projects are intended for individuals with a basic AWS understanding who w
  
 - **Project 7**: Create a new CMK in KMS and encrypt an object
   - **Description**: Created a **Customer Master Key (CMK)** using AWS Key Management Service (KMS) to ensure secure encryption of an object uploaded to an S3 bucket. The object was encrypted using the custom CMK, enhancing data security and encryption at rest. Key management and access control were configured for this setup, ensuring only authorized users could interact with the encrypted object.
+  - **Objectives**:
+    - Create a new Customer Master Key (CMK) in Key Management Service (KMS)
+    - Create a new S3 bucket
+    - Upload an object (file) to the S3 Bucket
+    - Encrypt the uploaded file with your custom CMK
   - **Services Used**: 
 
 - **Project 8**:  Create an EFS Shared File System
