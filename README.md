@@ -95,10 +95,6 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
       - Monitor AWS Config until it detects there is an EBS volume that is unencrpyted
     - **Service Used**:
     
-- **Project 12**:  Deploy a CloudFormation Template from the AWS Console
-  - **Description**: Downloaded a pre-made CloudFormation template and used it to create a CloudFormation stack. Monitored the deployment process through the events tab, confirmed the creation of a DynamoDB table and an S3 bucket, and then deleted the stack to ensure both resources were removed as part of the cleanup.
-  - **Service Used**: 
-    
 ## Level 2 (Intermediate Projects)
 These projects are intended for individuals with a basic AWS understanding who wish to explore more advanced scenarios.
 
