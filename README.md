@@ -80,6 +80,10 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 
 - **Project 10**:  Host a Simple Static Webpage with S3 and CloudFront
   - **Description**: Set up an S3 bucket to host a static webpage and uploaded the webpage content. Configured an Amazon CloudFront distribution to use the S3 bucket as its origin, ensuring that the webpage content is accessible only through the CloudFront endpoint to enhance security and performance.
+  - **Objectives**:
+    * Create an S3 bucket and upload a simple static webpage
+    * Create a CloudFront distribution and use the S3 bucket as origin
+    * Make sure that the bucket's content can be accessed only through the CloudFront endpoint
   - **Service Used**: 
 
 - **Project 11**:  Create an IAM User
