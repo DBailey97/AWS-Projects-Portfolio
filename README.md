@@ -99,17 +99,20 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 These projects are intended for individuals with a basic AWS understanding who wish to explore more advanced scenarios.
 
 - **Project 1**: Create an Auto Scaling Group
-
   - **Description**: Configured an Auto Scaling Group (ASG) with a launch configuration that automatically scales between 2 and 5 EC2 instances. Monitored the ASG’s behavior by manually terminating an instance and observing how the ASG maintains the desired capacity. Also, adjusted the desired number of instances and explored scaling policies based on CloudWatch metrics.
+  - **Objectives**:
+    - Create a Launch Configuration
+    - Create an Auto Scaling Group with a minimum of two and maximum of five EC2 instances
+    - Terminate one instance manually
+    - After the ASG is in place, increase the desired number of instances to three
+    - Delete all the resources you created
   - **Services Used**: 
 
 - **Project 2**: Deploy a Docker Container Image on AWS Fargate
-  
   - **Description**: Deployed a Docker container image on AWS Fargate by configuring a container with a Docker image, setting up a task definition, defining a service, and deploying it on an ECS cluster. Explored memory limits, task roles, load balancers, and security group configurations.
   - **Services Used**: 
 
 - **Project 3**: Create an Aurora RDS Database
-  
   - **Description**: Created an Aurora RDS database with MySQL compatibility. Configured a security group to allow public access for testing purposes, set up the database using `db.r5.large` instance type, and connected to the instance using MySQL Workbench. Verified functionality by creating a test table, then deleted the database and ensured proper resource cleanup.
   - **Services Used**: 
  
