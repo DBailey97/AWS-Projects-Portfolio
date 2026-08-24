@@ -56,6 +56,9 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 
 - **Project 7**:  Create an S3 Bucket and store an object in it
   - **Description**: This project involves creating an Amazon S3 bucket using the AWS Management Console and uploading a file into the bucket. Amazon S3 (Simple Storage Service) is used to store and retrieve any amount of data at any time, and this project demonstrates the basic steps of setting up and using S3 for storage.
+  - **Objectives**:
+    * Create S3 bucket
+    * Upload an object (any file) into the bucket
   - **Service Used**: 
 
 - **Project 8**:  Introduction to SNS (Simple Notification Service)
