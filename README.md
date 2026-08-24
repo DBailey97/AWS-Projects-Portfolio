@@ -151,6 +151,14 @@ These projects are intended for individuals with a basic AWS understanding who w
  
 - **Project 6**: Create a CloudWatch Alarm  
     - **Description**: Configured a CloudWatch Alarm to monitor EC2 NetworkIn traffic. An EC2 instance was launched with a simple Apache web server installed via UserData. The CloudWatch Alarm was set up to monitor the **NetworkIn** metric, with a 5-minute evaluation period and a low static threshold of 5000 bytes. The alarm was triggered by generating traffic to the instance, ensuring the monitoring setup was functional and reliable.
+    - **Objectives**:
+      - Launch an EC2 t2.micro instance with a public IP address and supply the [provided bash script](OPS04-AWS200-userdata.sh) to install a simple website with an apache server in the UserData.
+      - Visit the the public IP so that you are generating NetworkIn. You need to do this so the Metric appears selectable when create your CloudWatch Alarm
+      - Create a CloudWatch Alarm and use EC2 NetworkIn as the metric
+      - Set your CloudWatch Alarm to use a 5 minute period
+      - Set your CloudWatch Alarm to a very low static threshold such as 5000
+      - Set the Datapoint to alarms to 3 of 4
+      - Try to get the Alarm to trigger an Alert state by visiting the website and generating NetworkIN
     - **Services Used**: 
  
 - **Project 7**: Create a new CMK in KMS and encrypt an object

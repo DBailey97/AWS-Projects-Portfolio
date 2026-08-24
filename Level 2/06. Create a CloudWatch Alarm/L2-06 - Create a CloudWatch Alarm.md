@@ -1,14 +1,3 @@
-# OPS04-AWS200 - Create a CloudWatch Alarm
-
-## Cloud Service Provider
-- Amazon Web Services
-
-## Difficulty
-- Level 200 (Intermediate)
-
-## Project's Author(s)
-- [@andrewbrown](https://twitter.com/andrewbrown)
-
 ## Objectives
 
 ### You need to complete the following:
