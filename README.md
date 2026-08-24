@@ -6,18 +6,26 @@ This section features projects ideal for beginners, focusing on fundamental AWS 
 - **Project 1**: Create Three Billing Alarms
   - **Description**: This project involves configuring three AWS billing alarms to monitor and manage AWS costs effectively.
   - **Objectives**:
-  * Create a billing alarm for $5
-  * Create a billing alarm for $25
-  * Create a billing alarm for $100
+    * Create a billing alarm for $5
+    * Create a billing alarm for $25
+    * Create a billing alarm for $100
   - **Service Used**: 
 
 - **Project 2**: Create a Cost Budget
   - **Description**: Set up a cost budget in AWS to track and manage spending.
-  - **Objectives**: Create a cost budget to monitor spending
+  - **Objectives**: 
+    * Create a cost budget to monitor spending
   - **Service Used**: 
 
 - **Project 3**: Launch a Hello World Website on the Internet
   - **Description**: Deploy a simple "Hello World" website on an AWS EC2 instance to understand the process of launching and configuring an EC2 instance and making a basic web application available on the Internet.
+   - **Objectives**: 
+    * Launch a linux based EC2 instance in any one region of your choice in a public subnet
+    * Setup a security group that allows http/https connections from the Internet, and ssh from your IP address
+    * Ssh into the EC2 instance
+    * Setup a webserver on the EC2 instance
+    * Add a simple hello world header to the index.html file
+    * Hit the public IP address from a browser and confirm the site is served
   - **Service Used**: 
 
 - **Project 4**: Push a Docker Image to Amazon ECR Repository
