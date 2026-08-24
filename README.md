@@ -135,11 +135,18 @@ These projects are intended for individuals with a basic AWS understanding who w
 - **Project 4**: Setup a Simple State Machine with at least 2 Steps
   - **Description**: Create a simple AWS Step Functions state machine consisting of two AWS Lambda functions. Build on past services deployed to make a production level example
   - **Objectives**:
-    - 
+    * Create an AWS Lambda to add 2 numbers supplied as input
+    * Create an AWS Lambda to return the square of a number
+    * Create a state machine to connect the above two Lambdas
+    * Execute the state machine and verify the output.
   - **Services Used**: 
  
 - **Project 5**: Create a Serverless API  
-  - **Description**: Developed a serverless API using AWS Lambda and API Gateway. The Lambda function responds with the message 'Hello Serverless World!'. An API Gateway was created to expose the Lambda function as an HTTP endpoint, and the API was secured using an API Key. The API endpoint was successfully tested using POSTMAN to verify both functionality and security.  
+  - **Description**: Developed a serverless API using AWS Lambda and API Gateway. The Lambda function responds with the message 'Hello Serverless World!'. An API Gateway was created to expose the Lambda function as an HTTP endpoint, and the API was secured using an API Key. The API endpoint was successfully tested using POSTMAN to verify both functionality and security.
+  - **Objectives**: 
+    - Create an AWS Lambda with a language of your choice, the purpose of this Lambda is to respond with a 'Hello Serverless World!' message.
+    - Create an API Gateway endpoint and connect it to the AWS Lambda function created above and deploy it as an API that can be consumed from POSTMAN.
+    - Secure the API with an API Key  
   - **Services Used**: 
  
 - **Project 6**: Create a CloudWatch Alarm  
